@@ -496,6 +496,11 @@ section {
   resize: none;
 }
 
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+
 .contact__form .input__box .send__btn {
   color: #fff;
   background: crimson;
