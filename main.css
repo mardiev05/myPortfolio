@@ -25,7 +25,7 @@ header {
 }
 
 header.sticky {
-  background: rgb(224, 79, 108);
+  background: crimson;
   padding: 10px 100px;
 }
 
@@ -45,11 +45,15 @@ header .navigation a {
   font-size: 17px;
   font-weight: 500;
   margin-left: 30px;
-  transition: 0.5s ease;
+  transition: 0.5s ease-in;
+  -webkit-transition: 0.5s ease-in;
+  -moz-transition: 0.5s ease-in;
+  -ms-transition: 0.5s ease-in;
+  -o-transition: 0.5s ease-in;
 }
 
 header .navigation a:hover {
-  color: #666;
+  color: #111;
 }
 
 /* -----section-main----- */
